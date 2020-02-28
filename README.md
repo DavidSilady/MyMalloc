@@ -27,8 +27,8 @@ ukazovateľ na úspešne alokovaný kus voľnej pamäte, ktorý sa vyhradil, ale
 je možné súvislú pamäť požadovanej veľkosť vyhradiť.
 
 Funkcia memory_free slúži na uvoľnenie vyhradeného bloku pamäti, podobne ako funkcia
-free. Funkcia vráti 0, ak sa podarilo (funkcia zbehla úspešne) uvoľniť blok pamäti, inak vráti
-1. Môžete predpokladať, že parameter bude vždy platný smerník z predchádzajúcich volaní
+free. Funkcia vráti 0, ak sa podarilo (funkcia zbehla úspešne) uvoľniť blok pamäti, inak vráti 1. 
+Môžete predpokladať, že parameter bude vždy platný smerník z predchádzajúcich volaní
 vrátení funkciou memory_alloc, ktorý ešte nebol uvoľnený.
 
 Funkcia memory_check slúži na skontrolovanie, či parameter (smerník) je platný smerník,
